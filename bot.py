@@ -541,6 +541,7 @@ index_html = """
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
 <header>
   <h1>MovieChannelBD</h1>
@@ -1981,7 +1982,8 @@ ad_admin_html = """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ad Management - MovieZone</title>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
+  <title>Ad Management - MovieChannelBD</title>
   <style>
     body { font-family: Arial, sans-serif; background: #121212; color: #eee; padding: 20px; }
     h2 { 
@@ -2127,6 +2129,7 @@ ad_admin_html = """
     }
   </style>
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
   <a href="{{ url_for('admin') }}" class="back-to-admin">&larr; Back to Main Admin</a>
   <h2>Manage Advertisements</h2>
@@ -2262,7 +2265,8 @@ edit_ad_html = """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Edit Advertisement - MovieZone</title>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
+  <title>Edit Advertisement - MovieChannelBD</title>
   <style>
     body { font-family: Arial, sans-serif; background: #121212; color: #eee; padding: 20px; }
     h2 { 
@@ -2332,6 +2336,7 @@ edit_ad_html = """
     }
   </style>
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
   <a href="{{ url_for('ad_admin') }}" class="back-to-admin">&larr; Back to Ad Management</a>
   <h2>Edit Advertisement: {{ ad.title }}</h2>
