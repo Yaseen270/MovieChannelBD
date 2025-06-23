@@ -91,6 +91,7 @@ index_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script type='text/javascript' src='//pl25819994.profitableratecpm.com/ee/bc/de/eebcdee419aaf231fce3c1d0afb6416a.js'></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>MovieZone - Your Entertainment Hub</title>
