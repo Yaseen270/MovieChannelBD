@@ -826,7 +826,7 @@ index_html = """
     <i class="fas fa-film"></i>
     <span>Movie</span>
   </a>
-  <a href="https://t.me/Movie_Request_Group_23" class="nav-item" target="_blank" rel="noopener">
+  <a href="https://t.me/MovieChannel_Chat" class="nav-item" target="_blank" rel="noopener">
     <i class="fas fa-plus-circle"></i>
     <span>Request</span>
   </a>
