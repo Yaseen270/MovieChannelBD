@@ -658,7 +658,7 @@ index_html = """
       {% endif %}
     {% else %}
       <div class="category-header">
-        <h2>Trending on MovieZone</h2>
+        <h2>Trending on MovieChannelBD</h2>
         <a href="{{ url_for('trending_movies') }}" class="see-all-btn">See All</a>
       </div>
       {% if trending_movies|length == 0 %}
