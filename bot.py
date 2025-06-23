@@ -2860,9 +2860,9 @@ def delete_movie(movie_id):
         # Delete the movie from MongoDB using its ObjectId
         result = movies.delete_one({"_id": ObjectId(movie_id)})
         if result.deleted_count == 1:
-            print(f"Content with ID {movie_id} deleted successfully from MovieZone!")
+            print(f"Content with ID {movie_id} deleted successfully from MovieChannelBD!")
         else:
-            print(f"Content with ID {movie_id} not found in MovieZone database.")
+            print(f"Content with ID {movie_id} not found in MovieChannelBD database.")
     except Exception as e:
         print(f"Error deleting content with ID {movie_id}: {e}")
     
@@ -2876,7 +2876,7 @@ def trending_movies():
     for m in trending_list:
         m['_id'] = str(m['_id'])
     # Pass is_full_page_list=True and use 'movies' for the list
-    return render_template_string(index_html, movies=trending_list, query="Trending on MovieZone", is_full_page_list=True, get_active_ads=get_active_ads)
+    return render_template_string(index_html, movies=trending_list, query="Trending on MovieChannelBD", is_full_page_list=True, get_active_ads=get_active_ads)
 
 @app.route('/movies_only')
 def movies_only():
@@ -2884,7 +2884,7 @@ def movies_only():
     for m in movie_list:
         m['_id'] = str(m['_id'])
     # Pass is_full_page_list=True and use 'movies' for the list
-    return render_template_string(index_html, movies=movie_list, query="All Movies on MovieZone", is_full_page_list=True, get_active_ads=get_active_ads)
+    return render_template_string(index_html, movies=movie_list, query="All Movies on MovieChannelBD", is_full_page_list=True, get_active_ads=get_active_ads)
 
 @app.route('/webseries')
 def webseries():
@@ -2892,7 +2892,7 @@ def webseries():
     for m in series_list:
         m['_id'] = str(m['_id'])
     # Pass is_full_page_list=True and use 'movies' for the list
-    return render_template_string(index_html, movies=series_list, query="All Web Series on MovieZone", is_full_page_list=True, get_active_ads=get_active_ads)
+    return render_template_string(index_html, movies=series_list, query="All Web Series on MovieChannelBD", is_full_page_list=True, get_active_ads=get_active_ads)
 
 @app.route('/coming_soon')
 def coming_soon():
@@ -2900,7 +2900,7 @@ def coming_soon():
     for m in coming_soon_list:
         m['_id'] = str(m['_id'])
     # Pass is_full_page_list=True and use 'movies' for the list
-    return render_template_string(index_html, movies=coming_soon_list, query="Coming Soon to MovieZone", is_full_page_list=True, get_active_ads=get_active_ads)
+    return render_template_string(index_html, movies=coming_soon_list, query="Coming Soon to MovieChannelBD", is_full_page_list=True, get_active_ads=get_active_ads)
 
 # --- বিজ্ঞাপন ব্যবস্থাপনা রুট ---
 @app.route('/ad_admin', methods=["GET", "POST"])
