@@ -91,7 +91,7 @@ index_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script type='text/javascript' src='//pl25819994.profitableratecpm.com/ee/bc/de/eebcdee419aaf231fce3c1d0afb6416a.js'></script>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>MovieZone - Your Entertainment Hub</title>
@@ -851,6 +851,7 @@ detail_html = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ movie.title if movie else "Movie Not Found" }} - MovieZone Details</title>
@@ -1197,6 +1198,7 @@ detail_html = """
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
 <header>
   <a href="{{ url_for('home') }}" class="back-button"><i class="fas fa-arrow-left"></i>Back</a>
@@ -1334,6 +1336,7 @@ admin_html = """
 <!DOCTYPE html>
 <html>
 <head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
   <title>Admin Panel - MovieZone</title>
   <style>
     body { font-family: Arial, sans-serif; background: #121212; color: #eee; padding: 20px; }
@@ -1462,6 +1465,7 @@ admin_html = """
     }
   </style>
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
   <h2>Add New Movie</h2>
   <form method="post">
@@ -1689,7 +1693,8 @@ edit_html = """
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Edit Content - MovieZone</title>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
+  <title>Edit Content - MovieChannelBD</title>
   <style>
     body { font-family: Arial, sans-serif; background: #121212; color: #eee; padding: 20px; }
     h2 { 
@@ -1767,6 +1772,7 @@ edit_html = """
     }
   </style>
 </head>
+<script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <body>
   <a href="{{ url_for('admin') }}" class="back-to-admin">&larr; Back to Admin Panel</a>
   <h2>Edit Content: {{ movie.title }}</h2>
