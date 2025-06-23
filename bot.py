@@ -542,7 +542,7 @@ index_html = """
 </head>
 <body>
 <header>
-  <h1>MovieZone</h1>
+  <h1>MovieChannelBD</h1>
   <form method="GET" action="/">
     <input type="search" name="q" placeholder="Search movies..." value="{{ query|default('') }}" />
   </form>
@@ -576,7 +576,7 @@ index_html = """
   {# Conditional rendering for full list pages vs. homepage sections #}
   {% if is_full_page_list %}
     <div class="category-header">
-      <h2>{{ query }}</h2> {# query holds the title like "Trending on MovieZone" #}
+      <h2>{{ query }}</h2> {# query holds the title like "Trending on MovieChannelBD" #}
       {# No "See All" button for full list pages #}
     </div>
     {% if movies|length == 0 %}
