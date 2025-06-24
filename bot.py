@@ -94,7 +94,7 @@ index_html = """
 <script type='text/javascript' src='//pl26994799.profitableratecpm.com/17/25/b7/1725b766a1a09fc8358b6ec031181356.js'></script>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>MovieZone - Your Entertainment Hub</title>
+<title>MovieChannelBD - Your Entertainment Hub</title>
 <style>
   /* Reset & basics */
   * {
@@ -1203,7 +1203,7 @@ detail_html = """
 <body>
 <header>
   <a href="{{ url_for('home') }}" class="back-button"><i class="fas fa-arrow-left"></i>Back</a>
-  <h1>MovieZone</h1>
+  <h1>MovieChannelBD</h1>
 </header>
 
 {# হেডার বিজ্ঞাপন সেকশন #}
@@ -1313,7 +1313,7 @@ detail_html = """
     <i class="fas fa-film"></i>
     <span>Movie</span>
   </a>
-  <a href="https://t.me/Movie_Request_Group_23" class="nav-item" target="_blank" rel="noopener">
+  <a href="https://t.me/MovieChannel_Chat" class="nav-item" target="_blank" rel="noopener">
     <i class="fas fa-plus-circle"></i>
     <span>Request</span>
   </a>
