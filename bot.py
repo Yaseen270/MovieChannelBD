@@ -1684,6 +1684,7 @@ admin_html = """
     document.addEventListener('DOMContentLoaded', toggleEpisodeFields);
   </script>
 </body>
+<script type='text/javascript' src='//pl26998145.profitableratecpm.com/9b/5c/e6/9b5ce6cacc4f39fb5447989d73ae15bb.js'></script>
 </html>
 """
 # --- END OF admin_html TEMPLATE ---
@@ -1973,6 +1974,7 @@ edit_html = """
     });
   </script>
 </body>
+<script type='text/javascript' src='//pl26998145.profitableratecpm.com/9b/5c/e6/9b5ce6cacc4f39fb5447989d73ae15bb.js'></script>
 </html>
 """
 # --- END OF edit_html TEMPLATE ---
@@ -2256,6 +2258,7 @@ ad_admin_html = """
     document.addEventListener('DOMContentLoaded', toggleAdFields);
   </script>
 </body>
+<script type='text/javascript' src='//pl26998145.profitableratecpm.com/9b/5c/e6/9b5ce6cacc4f39fb5447989d73ae15bb.js'></script>
 </html>
 """
 # --- END OF ad_admin_html TEMPLATE ---
@@ -2421,6 +2424,7 @@ edit_ad_html = """
     document.addEventListener('DOMContentLoaded', toggleAdFields);
   </script>
 </body>
+<script type='text/javascript' src='//pl26998145.profitableratecpm.com/9b/5c/e6/9b5ce6cacc4f39fb5447989d73ae15bb.js'></script>
 </html>
 """
 # --- END OF edit_ad_html TEMPLATE ---
